@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Hotel Management</title>
+    <link rel="stylesheet" href="hotel project.css">
+</head>
+<body>
+         
+   
+
+    
+    <nav class="navbar">
+        <ul>
+            <li class="tag" > <button><a href="#home"  class="weblogo">home</a></button></li>
+            <li> <a href="#Room"><b>Rooms </b>  </a></li>
+            <li><a href="#vip"><b>VIP Rooms</b></a></li>
+            <li><a href="#about"><b>About Us</b></a></li>
+            <li><a href="#contact"><b>Contact</b></a></li>
+        </ul>
+        <div class="social-media">
+            <a href="https://www.facebook.com" > 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s" alt="Facebook">
+                                        </a>
+
+                    </button>
+
+            <a href="https://www.instagram.com">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram">
+                                        </a>
+
+            <a href="https://www.twitter.com" >
+                <img src="https://www.omnicoreagency.com/wp-content/uploads/2015/10/Twitter-Logo.png.webp" alt="Twitter">
+                                        </a>
+        </div>
+    </nav>
+
+    
+    <header id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1 class="d">WanderStay </h1>
+            <h2>Welcome to Our Luxury Hotel</h2> <br> <br>
+           <h3>Discover the most luxurious rooms and services tailored for your perfect stay.</h3>
+        </div>
+    </header>
+
+   
+    <section id="rooms" class="rooms-section">
+        <h2>Available Rooms</h2>
+        <div class="room-container">
+            <div class="room">
+                <img src="https://imgs.search.brave.com/YJrxd_ISoaBvuFi492R7zmQI9clAQbOdc_lHRA9H6uM/rs:fit:
+                860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTg0/NjA5MDU3L3Bob3Rv/L2x1eHVyeS1ob3Rl/bC1yb29tLmpwZz9z/
+                PTYxMng2MTImdz0w/Jms9MjAmYz1OTjFP/VGRkdlV4R3gtQ05T/SFllMlNRdnNWN2Rp/TWc4QUJ5SWxuSE0z/OVh3PQ" alt="Standard Room">
+
+                <h3>Standard Room</h3>
+
+                <p> <b>  Price :</b>1500/night</p>
+
+            <p> <b>  Status:⇰</b> <span class="vacant">Vacant</span></p>
+
+               <a href="//www.makemytrip.com/hotels/hotel_highway_king_bagru-details-jaipur.html""> 
+                
+                <button onclick="bookRoom('Standard')"><b> Book Now </b></button></a>
+
+            </div>
+            <div class="room">
+                <img src="https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Deluxe Room">
+                <h3>Deluxe Room</h3>
+                <p ><b> Price: </b>  2000/night</p>
+                <p><b> Status:⇰ </b> <span class="filled">Filled</span></p>
+            <button disabled> <b>   Booked </b></button>
+            </div>
+            <div class="room">
+                    <img src="https://imgs.search.brave.com/EaSGGortpp2Cyx3II3UYqQsfwBSDqiIsDldpR74t6Uo/rs:fit:860:0:0:0/g:ce
+                    /aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM5/MDIzMzk4NC9waG90/by9tb2Rlcm4tbHV4/dXJ5LWJlZHJvb20u/anBnP3M9NjEyeDYx
+                    /MiZ3PTAmaz0yMCZj/PXBvOTFwb3FZb1FU/YkhVcE8xTEQxSGN4/Q0ZaVnBSRy1sb0FN/V1pUN1lSZTQ9" alt="VIP Room" >
+                <h3>VIP Room</h3>
+                <p> <b> Price:</b> 2500/night</p>
+                <p> <b>Status:⇰ </b> <span class="vacant">Vacant</span></p>
+               <a href="//www.makemytrip.com/hotels/hotel_highway_king_bagru-details-jaipur.html"> 
+                <button onclick="bookRoom('VIP')" > <b>Book Now </b></button> </a>
+            </div>
+        </div>
+    </section>
+
+    
+     <marquee  class="our" > <b># 20%off on "EARLY BOOKING" # </b></marquee>
+    <section id="vip" class="vip-section"> 
+        <h2>Our Exclusive VIP Rooms</h2>
+        <p>Enjoy a luxurious experience in our VIP rooms with personalized services and exclusive amenities.</p>
+        <div class="vip-container">
+           <pre class="night"> <button><img src="https://imgs.search.brave.com/TMupoS0DkBtosvMTpYtF8T1R-Q5SY77f28IrXZWmL8M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI5/OTcxMDA2Ny9waG90/by9kb3VibGUtYmVk/cm9vbS13aXRoLXNl/YS12aWV3LmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1MUE5D/LWFxcnNPc2d4VThl/cVBjUjM4QUNJT0lq/cUFtaDBWU0tjbElh/MmdzPQ" </button>  </pre>
+
+            <div class="vip-details">
+                <h3>VIP Presidential Suite</h3>
+                <p>Price: 3500/night</p>
+                <p> <b>Status:⇰ </b> <span class="vacant">Vacant</span></p>
+                <a href=" //www.makemytrip.com/hotels/hotel_highway_king_bagru-details-jaipur.html" > 
+                    <button onclick="bookRoom('VIP Suite') "> <b>Book VIP Room </b></button></a> 
+            </div>
+        </div>
+        
+    </section>
+
+   
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>
+
+            Welcome to <strong class="ruk">WanderStay </strong>, where comfort and convenience come together in the vibrant heart of Connaught Place, Delhi. Our hotel offers a range of modern amenities, including a refreshing swimming pool, a lively bar for night parties, free Wi-Fi, and an on-site restaurant. Whether you're visiting for business or leisure, WanderStay ensures a relaxing and enjoyable stay. With our prime location near top attractions and shopping hubs, we are the perfect choice for your next trip to Delhi.
+            
+            </p>
+        <div class="about-image">
+       <div class="range"> <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/19/16/65/bhanwar-singh-palace.jpg?w=1200&h=-1&s=1"><pre><b class="t"> <h1>Hotel Front View </h1></b></pre></div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>For inquiries or reservations, feel free to get in touch with us:</p>
+        <ul>
+            <li>Email: contact@luxuryhotel.com</li>
+            <li>Phone: +123 456 7890</li>
+        </ul>
+    </section>
+
+   
+    <footer>
+       <marquee ><b> &copy; 2024 Luxury Hotel. All rights reserved # </b></marquee>
+    </footer>
+
+    <script src="hotelproject.js"></script>
+
+</body>
+</html>
